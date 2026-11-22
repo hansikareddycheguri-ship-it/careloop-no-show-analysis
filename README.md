@@ -33,13 +33,13 @@ CareLoop should start with reminders and an evening call list. In the risk model
 | File | What it is |
 |---|---|
 | `data/` | The original three CSV files, unedited |
-| `Part1_Data_Foundations.ipynb` | Reading, cleaning, features, API enrichment and SQL export |
+| `part1datafoundation.ipynb` | Reading, cleaning, features, API enrichment and SQL export |
 | `rejected_rows.json` | Rows rejected by the `csv` module check (Task 1.1) |
 | `appointments_clean.csv` | The cleaned table: 990 rows, 16 columns |
 | `clinics_enriched.csv` | The clinics with `temp_c` from Open-Meteo |
 | `load_data.sql` | 998 INSERT statements (8 clinics + 990 appointments) |
 | `part2_queries.sql` | All Part 2 SQL queries |
-| `Part2_SQL_checks.ipynb` | The pandas check of the SQL clinic counts |
+| `part2_sql_checks.ipynb` | The pandas check of the SQL clinic counts |
 | `Part3_Model.ipynb` | Baseline, logistic regression, trees, random forest, tuning and threshold |
 | `test_risk_scores.csv` | Risk score and flag for the 198 test bookings |
 | `Part4_GenAI.ipynb` | Gemini note analysis, Pydantic validation, prompt tests and the merge |
